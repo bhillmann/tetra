@@ -5,7 +5,7 @@ import os
 
 AUTHOR = 'Benjamin Hillmann'
 SITENAME = "Ben of 1"
-SITEURL = ''
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
