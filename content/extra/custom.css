@@ -1,4 +1,5 @@
 .btn-scroll-to-top {
+    border-top-left-radius: 4px;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -20,4 +21,8 @@
 
 a.btn-scroll-to-top {
     outline: 0
+}
+
+#tipue_search_input.search-query {
+    border-radius: 4px !important;
 }
