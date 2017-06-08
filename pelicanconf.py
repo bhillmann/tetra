@@ -20,6 +20,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+ARTICLE_PATHS = ('articles')
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
@@ -46,7 +48,7 @@ DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'sear
 BANNER ='images/mountain_night.jpg'
 
 #path config
-STATIC_PATHS = ('images', 'notebooks', 
+STATIC_PATHS = ('images', 
     os.path.join('extra', 'favicon.ico'), 
     os.path.join('extra', 'robots.txt'), 
     os.path.join('extra', 'custom.css'),
@@ -70,5 +72,7 @@ EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'},
     'extra/custom.js': {'path': 'static/custom.js'},
 }
+
+BOOTSTRAP_FLUID = True
 
 # test

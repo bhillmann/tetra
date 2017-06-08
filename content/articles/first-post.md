@@ -5,5 +5,6 @@ Category: posts
 Tags: python
 Author: me
 Summary: My first post, read it to find out.
+Thumbnail: images/fruit-delivered.jpg
 
 {% notebook notebooks/first-post.ipynb %}
