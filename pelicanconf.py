@@ -70,3 +70,5 @@ EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'},
     'extra/custom.js': {'path': 'static/custom.js'},
 }
+
+# test
