@@ -61,8 +61,7 @@ CUSTOM_CSS = 'static/custom.css'
 # custom JS
 CUSTOM_JS = 'static/custom.js'
 
-THEME = 'tetra'
-BOOTSTRAP_THEME = 'flatly'
+THEME = 'theme/tetra-bootstrap'
 PYGMENTS_STYLE = 'xcode'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
