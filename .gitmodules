@@ -1,3 +1,6 @@
 [submodule "theme/tetra-bootstrap"]
 	path = theme/tetra-bootstrap
 	url = https://github.com/bhillmann/tetra-bootstrap.git
+[submodule "plugins/ipynb"]
+	path = plugins/ipynb
+	url = git://github.com/danielfrg/pelican-ipynb.git
