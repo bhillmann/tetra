@@ -1,0 +1,28 @@
+.btn-scroll-to-top {
+    border-top-left-radius: 4px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    padding: 0 5px 10px;
+    color: #18bc9c;
+    background-color: #2c3e50;
+    opacity: .7;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none
+}
+
+.btn-scroll-to-top:active,
+.btn-scroll-to-top:hover {
+    text-decoration: none;
+    opacity: 1
+}
+
+a.btn-scroll-to-top {
+    outline: 0
+}
+
+#tipue_search_input.search-query {
+    border-radius: 4px !important;
+}
